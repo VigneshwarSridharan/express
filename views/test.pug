@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  h1= name
+  h3 Vigneshwar Sridharan
+  p Welcome to #{name}
+  a(href="/") Home
+  div.row
+    .col-sm-6
+      img(src="images/2.jpg" class="img-responsive")
+        
+  form(id="senddata")
+    input(type="text" placeholder="name" name="name")
+    input(type="text" placeholder="quote" name="no")
+    button(type="button") Submit
+  

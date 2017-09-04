@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  - for(var i=0; i<data.length;i++)
+    h3 Name : #{data[i].name}
+    h4 Mobile No : #{data[i].mobileNo}
+    p Id : #{data[i]._id}
+  
